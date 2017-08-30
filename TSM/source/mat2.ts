@@ -37,7 +37,7 @@ module TSM {
 
     export class mat2 {
 
-        private values = new Float32Array(4);
+        public values = new Float32Array(4);
 
         constructor(values: number[]= null) {
             if (values) {

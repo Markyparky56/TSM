@@ -37,7 +37,7 @@ module TSM {
 
     export class vec3 {
 
-        private values = new Float32Array(3);
+        public values = new Float32Array(3);
 
         get x(): number {
             return this.values[0];

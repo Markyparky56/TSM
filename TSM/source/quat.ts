@@ -37,7 +37,7 @@ module TSM {
 
     export class quat {
 
-        private values = new Float32Array(4);
+        public values = new Float32Array(4);
 
         get x(): number {
             return this.values[0];

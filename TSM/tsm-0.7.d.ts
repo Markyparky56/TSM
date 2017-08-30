@@ -1,7 +1,7 @@
 declare var EPSILON: number;
 declare module TSM {
     class vec2 {
-        private values;
+        public values;
         public x : number;
         public y : number;
         public xy : number[];
@@ -36,7 +36,7 @@ declare module TSM {
 }
 declare module TSM {
     class vec3 {
-        private values;
+        public values;
         public x : number;
         public y : number;
         public z : number;
@@ -77,7 +77,7 @@ declare module TSM {
 }
 declare module TSM {
     class vec4 {
-        private values;
+        public values;
         public x : number;
         public y : number;
         public z : number;
@@ -117,7 +117,7 @@ declare module TSM {
 }
 declare module TSM {
     class mat2 {
-        private values;
+        public values;
         constructor(values?: number[]);
         public at(index: number): number;
         public init(values: number[]): mat2;
@@ -141,7 +141,7 @@ declare module TSM {
 }
 declare module TSM {
     class mat3 {
-        private values;
+        public values;
         constructor(values?: number[]);
         public at(index: number): number;
         public init(values: number[]): mat3;
@@ -167,7 +167,7 @@ declare module TSM {
 }
 declare module TSM {
     class mat4 {
-        private values;
+        public values;
         constructor(values?: number[]);
         public at(index: number): number;
         public init(values: number[]): mat4;
@@ -199,7 +199,7 @@ declare module TSM {
 }
 declare module TSM {
     class quat {
-        private values;
+        public values;
         public x : number;
         public y : number;
         public z : number;
